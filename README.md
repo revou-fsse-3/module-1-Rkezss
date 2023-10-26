@@ -1,7 +1,8 @@
 >#Ruth Kezia Profile
 ---
 ##About me
-Hi everyone. Let me introduce myself. my name is Ruth, i live in bekasi, It is pleasure to meet you
+Hi everyone. Let me introduce myself. my name is Ruth, i live in bekasi, It is pleasure to meet you, My Landing Website - Koi Fanclub
+https://main--tourmaline-smakager-40c554.netlify.app/
 ![alt text](a.jpg)
 ###My Social Media
 - [Instagram](https://www.instagram.com)
