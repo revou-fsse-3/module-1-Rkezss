@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A web application to show photos of penguins"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Ruth Kezia" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koi Photo App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="icon"
+      href="iconkoi.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav>
+      <span class="mobile">
+        <img
+          src="https://user-images.githubusercontent.com/2970318/209647125-dc41103d-c545-4e2e-b89b-099fbfcde702.svg"
+          alt="Hamburger Icon"
+        />
+      </span>
+      <span class="relative-container">
+        <img
+          src="iconkoii.png"
+          alt="Koi Fan Club Icon"
+        />
+        <b>Koi Club</b>
+        <span class="circle-red">99+</span>
+      </span>
+
+      <ul class="desktop">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <header class="full-screen" id="header">
+      <h1>Koi Photo App</h1>
+      <p>This is an app about the most beautiful creature in the world!</p>
+    </header>
+    <main>
+      <section id="koi-photos">
+        <h2>Koi Photos</h2>
+        <div class="grid-container">
+          <div id="item-1">
+            <img
+              src="koi1.jpg"
+              alt="Ikan Koi 1"
+            />
+          </div>
+          <div id="item-2">
+            <img
+              src="koi2.jpeg"
+              alt="Ikan Koi 2."
+            />
+          </div>
+          <div id="item-3">
+            <img
+              src="koi3.jpeg"
+              alt="Ikan Koi 3"
+            />
+          </div>
+          <div id="item-4">
+            <img
+              src="koi4.jpeg"
+              alt="Ikan Koi 4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="koi-facts">
+        <h2>Facts about koi</h2>
+        <div class="flex-container">
+          <ul>
+            <li>Has a relationship with goldfish</li>
+            <li>Capable of long life</li>
+            <li>Very friendly fish</li>
+          </ul>
+          <figure>
+            <img
+              src="koi5.jpeg"
+              alt="Ikan Koi 5"
+            />
+            <figcaption>Koi fish<em> swim in</em> crowds</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="section-video">
+        <h2>A beautiful koi fish video!</h2>
+        <div class="flex-container">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/_It40Yh5lG4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            display="block"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="form-section">
+        <h2>Join our Koi fanclub!</h2>
+        <form action="#">
+          <fieldset>
+            <legend>Personal Data:</legend>
+            <div>
+              <label for="fullName">Full Name:</label>
+              <input id="fullName" type="text" required />
+            </div>
+
+            <div>
+              <label for="email">Email:</label>
+              <input id="email" type="email" required />
+            </div>
+
+            <div>
+              <p>Are you living in Indonesia?</p>
+              <input type="radio" id="yes" name="isIndonesia" value="Male" />
+              <label for="yes">Yes</label>
+              <input type="radio" id="no" name="isIndonesia" value="Female" />
+              <label for="no">No</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Additional information:</legend>
+            <div>
+              <p>What do you think about a koi?</p>
+              <input
+                id="cute"
+                type="checkbox"
+                name="personality"
+                value="cute"
+              />
+              <label for="cute">Cute</label>
+              <input
+                id="adorable"
+                type="checkbox"
+                name="personality"
+                value="adorable"
+              />
+              <label for="adorable">Adorable</label>
+              <input
+                id="beautiful"
+                type="checkbox"
+                name="personality"
+                value="beautiful"
+              />
+              <label for="beautiful">Beautiful</label>
+            </div>
+            <div>
+              <p>Tell us why you love koi!</p>
+              <textarea rows="3"></textarea>
+            </div>
+            <div>
+              <p>Upload your favorite koi picture here:</p>
+              <input
+                type="file"
+                id="photo"
+                name="myKoiPhoto"
+                required
+                accept="image/png, image/jpeg"
+              />
+            </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
